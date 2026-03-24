@@ -2,11 +2,22 @@
     margin: 0%;
     padding: 0%;
 }
-
+/* display block(padrao) */
 .pai{
     width: 80%;
+    height: 500px;
     padding:20px ;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    /* row linha*/
+    /* colum coluna*/
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: start; 
+    /* start- esquerda*/
+    /* end  - direita*/
+    /* center - centro*/
+    /* space-between/around - separar centralizado*/
 }
 
 .filho{
