@@ -35,11 +35,10 @@ main{
 
 #banner{
      width: 80%;
-    height: 500px;
+    height: 300px;
     margin: 20px 0px;
-    background-image: url('../images/Games.jpg');
+    background-image: url('../images/GOD\ OF\ WAR.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: unset;
-    color: rgb(222, 62, 13);
+    background-position: top;
 }
