@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --corPrimaria : #fa7e9f; 
+    --corSegundaria : #ff5555;
+    --corLink : #c53535;
+    --corTexto : #ca2222; 
+}
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: var(--corPrimaria);
+}
+
+#botaoAnima{
+    padding: 5px;
+    margin: 10px;
+    background-color: var(--corPrimaria);
+    color: var(--corSegundaria);
+    border: none;
+    transition: 0.3s;
+}
+
+#textoAnima:focus{
+    border: none;
+    transition: 1s;
+    border-bottom:2px solid brown;
+    background-color: rgb(255, 237, 237);
+    border-radius: 10px
+}
+
+#botaoAnima:active{
+    border: 2px solid black;
+}
+
+#botaoAnima:hover{
+    background-color: var(--corSegundaria);
+    color: var(--corPrimaria);
+    padding: 10px;
+}
+
