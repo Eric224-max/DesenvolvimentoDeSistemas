@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Fonte 1;
+    font-weight: normal;
+    src: url(../fonts/simply_olive/Fonte\ 1/--fontePrimaria);
+}
+
+@font-face {
+    font-family: Fonte 2;
+    font-weight: bold;
+    src: url(../fonts/simply_olive/Fonte\ 2/--fonteSecundaria);
+}
+
+
+/* @font-face {
+    font-family: Fonte 1;
+    font-weight: normal;
+    src: url('../fonts/simply_olive/');
+}
+ */
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --fontePrimaria : Fonte 1 ;
+    --fonteSecundaria : Fonte 2 ;
+}
+
+h1{
+    font-family: var(--fontePrimaria);
+}
+
+p{
+    font-family: "Roboto";
+}
+  
