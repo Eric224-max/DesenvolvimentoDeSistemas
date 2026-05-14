@@ -1,0 +1,237 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+header {
+    background-color: rgb(182, 45, 45);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.parteE {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    color: aliceblue;
+}
+
+.parteD {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 90%;
+    margin-right: 20px;
+}
+
+.btnHeader {
+    background: none;
+    color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+.imgHeader {
+    height: 80px;
+}
+
+/* Meio do Site */
+
+.infoBackground {
+    background-color: #fc8c1d8e;
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+    gap: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBackground {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btnBackground {
+    background-color: #302727;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    margin-top: 20px;
+}
+
+.banner {
+    margin-top: 8px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.formaPag {
+    gap: 40px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+
+}
+
+.pag {
+    width: 20%;
+    height: 20%;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: solid 3px;
+}
+
+
+
+
+.ParteCinza,
+.tituloCinza {
+    color: white;
+    background-color: #302727;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.ImgCinza {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.textoCinza {
+    margin-left: 20px;
+    height: 200px;
+    width: 900px;
+}
+
+.h1Cinza {
+    height: 20px;
+    width: 1000%;
+}
+
+.imgBranca {
+    gap: 50px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.imgB {
+    border-radius: 3px;
+    display: flex;
+    gap: 40px;
+}
+
+.h1Branco {
+    height: 10%;
+    width: 40%;
+}
+
+#imgBranco {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+#tabelaSantander{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.ParteCima, .ParteEsquerda{
+    background-color: rgb(184, 2, 2);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#conteudo {
+    margin-top: 20px;
+    display: flex;
+    background-color: white;
+    height: 300px;
+    width: 80%;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px  10px gray;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#tabelaSantander #conteudo h1{
+    height: 100px;
+    width: 50%;
+}
+
+table{
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table tr td{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+table tr th{
+    background-color: #ba2d2d;
+    color: white;
+
+}
+.branco{
+    background-color: white;
+}
+#colors {
+    background-color: #302727;
+    background-color: #ba2d2d;
+    background-color: #f2511b;
+    background-color: #f2861b;
+    background-color: #c7c730;
+}
+
+footer {
+    background-color: rgb(182, 45, 45);
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.rodape {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
