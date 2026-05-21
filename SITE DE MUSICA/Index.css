@@ -1,0 +1,10 @@
+.musicas img, .musicas iframe{
+    height: 350px;
+}
+
+#Letras{
+    color: aliceblue;
+    justify-items:center;
+    font-family:fantasy;
+    
+}
