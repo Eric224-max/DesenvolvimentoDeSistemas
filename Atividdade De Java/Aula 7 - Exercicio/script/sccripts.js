@@ -1,41 +1,25 @@
+const nomeJogador = "JoãoGamer"; // constante (não pode alterar)
+let idade = 16;    //number
+let online = true; //boolean
 
-const nomeJogador = "GamerPro99"; 
-
-
-let idade = 16;                   
-let isOnline = true;              
-
-
-const jogoFavorito = {
-    nome: "Valorant",
-    anoLancamento: 2020
+// Objeto com o jogo favorito
+let jogoFavorito = {
+    nome: "GTA V",
+    anoLancamento: 2013
 };
 
+// Array com últimas 3 potuações
+let pontuacoes = [1500, 2000, 1800];
 
-const ultimasPontuacoes = [2400, 2850, 3100];
+// Mostrando os valores e seus tipos no console
+console.log("Nome:", nomeJogador, "Tipo:", typeof nomeJogador);
+console.log("Idade:", idade, "Tipo:", typeof idade);
+console.log("Online:", online, "Tipo:", typeof online);
+console.log("Jogo Favorito:", jogoFavorito, "Tipo:", typeof jogoFavorito);
+console.log("Pontuações:", pontuacoes, "Tipo:", typeof pontuacoes);
 
-
-
-
-console.log("--- VALORES E TIPOS INICIAIS ---");
-
-console.log("Nome:", nomeJogador, "-> Tipo:", typeof nomeJogador);
-console.log("Idade:", idade, "-> Tipo:", typeof idade);
-console.log("Está Online?:", isOnline, "-> Tipo:", typeof isOnline);
-
-
-console.log("Jogo Favorito:", jogoFavorito, "-> Tipo:", typeof jogoFavorito);
-console.log("Últimas Pontuações:", ultimasPontuacoes, "-> Tipo:", typeof ultimasPontuacoes);
-
-
-
-console.log("\n--- TESTANDO ALTERAÇÕES ---");
-
-
+// Mudando valores da idade e do status online
 idade = 17;
-isOnline = false;
-
-
-console.log("Nova Idade:", idade);
-console.log("Novo Status Online:", isOnline);
-
+online = false;
+console.log("Nova idade:", idade);
+console.log("Novo status online:", online);
